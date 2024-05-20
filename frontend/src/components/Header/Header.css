@@ -1,0 +1,46 @@
+/* Header.css */
+
+.header {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 1rem 2rem; /* Add some padding for spacing */
+    display: flex; /* Make header elements align horizontally */
+    justify-content: space-between; /* Space navigation and login button evenly */
+  }
+  
+  .navbar {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .navbar li {
+    display: inline-block; /* Make list items display side-by-side */
+    margin-right: 1rem; /* Add some margin between list items */
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .login-button {
+    background-color: #4CAF50; /* Green background for login button */
+    color: white; /* White text color */
+    padding: 0.5rem 1rem; /* Add some padding */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable behavior */
+  }
+  
+  .login-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  a {
+    color: black; /* Default link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  a:hover {
+    color: #666; /* Slightly darker color on hover */
+  }
+  

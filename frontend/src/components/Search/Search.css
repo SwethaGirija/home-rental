@@ -1,0 +1,183 @@
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .house-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .house-card {
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .house-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .house-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .house-card .details {
+    padding: 20px;
+  }
+  
+  .house-card h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .house-card p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .house-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .house-card button:hover {
+    background-color: #0056b3;
+  }
+  .selected-house {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .selected-house h2 {
+    margin-top: 0;
+  }
+  
+  .selected-house button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .book-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .book-page label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .book-page input[type="text"],
+  .book-page input[type="date"],
+  .book-page input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book-page input[type="text"]:focus,
+  .book-page input[type="date"]:focus,
+  .book-page input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .book-page button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-page button + button {
+    margin-left: 10px;
+  }
+  .feedback-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px 20px;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .app {
+    position: relative; /* Ensure the back button stays in the top-left corner of the page */
+  }
+    
+        

@@ -1,0 +1,87 @@
+/* Feedback Component Styles */
+
+.feedback-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .feedback-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .feedback-input-container {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-label {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .feedback-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .feedback-upload {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-upload-label {
+    display: block;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-image-preview {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .feedback-image {
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .feedback-submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feedback-submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .feedback-submitted-container {
+    margin-top: 20px;
+  }
+  
+  .feedback-submitted-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .feedback-submitted-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
